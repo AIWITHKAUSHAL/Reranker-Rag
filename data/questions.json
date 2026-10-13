@@ -1,0 +1,7 @@
+[
+  {"question":"How many unused annual leave days can I carry forward, and when do they expire?","relevant_ids":["C01"],"expected_answer":"Up to 5 days; use them by March 31 of the following year."},
+  {"question":"What is the monthly home internet reimbursement limit and submission deadline?","relevant_ids":["C05"],"expected_answer":"INR 1500 per month; submit the bill by the 5th of the following month."},
+  {"question":"Who must approve working from another country and how far in advance?","relevant_ids":["C04"],"expected_answer":"Written approval from People Operations and Security at least 14 days in advance."},
+  {"question":"What should I do if my company laptop is stolen, and how quickly?","relevant_ids":["C08"],"expected_answer":"Notify Security within 1 hour of discovery and open an IT incident ticket."},
+  {"question":"How much can I spend on a course each year, and do I need approval before buying it?","relevant_ids":["C07"],"expected_answer":"The annual learning budget is INR 30000. Manager approval is required before purchase."}
+]

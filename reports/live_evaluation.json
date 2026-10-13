@@ -1,0 +1,1080 @@
+{
+  "mode": "live",
+  "results": [
+    {
+      "question": "How many unused annual leave days can I carry forward, and when do they expire?",
+      "candidate_count": 15,
+      "top_k": 4,
+      "embedding_model": "gemini-embedding-001",
+      "generation_model": "gemini-3.5-flash-lite",
+      "reranker": "LLM relevance judge (0\u2013100)",
+      "baseline_ids": [
+        "C01",
+        "C20",
+        "C02",
+        "C16"
+      ],
+      "reranked_ids": [
+        "C01",
+        "C20",
+        "C02",
+        "C16"
+      ],
+      "answers": {
+        "baseline": "You can carry forward up to 5 unused annual leave days into the next year, and they must be used by March 31 [C01].",
+        "reranked": "You can carry forward up to 5 unused annual leave days into the next year, and they must be used by March 31 [C01]."
+      },
+      "ranking": [
+        {
+          "chunk": {
+            "id": "C01",
+            "source": "Atlas Handbook \u2022 Annual leave",
+            "text": "Full-time Atlas employees receive 24 paid annual leave days per calendar year. Up to 5 unused days may carry into the next year and must be used by March 31. Managers approve leave requests submitted through PeopleHub at least 7 days before the first day off."
+          },
+          "initial_rank": 1,
+          "initial_score": 0.6879497305080944,
+          "reranker_score": 100.0,
+          "final_rank": 1
+        },
+        {
+          "chunk": {
+            "id": "C20",
+            "source": "Atlas Handbook \u2022 Leave requests FAQ",
+            "text": "Use PeopleHub to check leave balances, request annual leave, and view company holidays. Your manager reviews scheduling conflicts. For exact entitlement, carry-forward limits, and expiry dates, consult the Annual leave policy."
+          },
+          "initial_rank": 2,
+          "initial_score": 0.6425458225506302,
+          "reranker_score": 25.0,
+          "final_rank": 2
+        },
+        {
+          "chunk": {
+            "id": "C02",
+            "source": "Atlas Handbook \u2022 Sick leave",
+            "text": "Employees have 12 paid sick leave days annually. Notify your manager before the workday starts. A medical certificate is required for absences lasting more than 3 consecutive working days. Sick leave cannot be carried forward."
+          },
+          "initial_rank": 3,
+          "initial_score": 0.6128421270593772,
+          "reranker_score": 0.0,
+          "final_rank": 3
+        },
+        {
+          "chunk": {
+            "id": "C16",
+            "source": "Atlas Handbook \u2022 Public holidays",
+            "text": "Public holidays follow the calendar of the employee's assigned office. The annual calendar is published in PeopleHub in December. Employees may choose 2 optional holidays from the regional list each year."
+          },
+          "initial_rank": 4,
+          "initial_score": 0.5825838468386151,
+          "reranker_score": 0.0,
+          "final_rank": 4
+        },
+        {
+          "chunk": {
+            "id": "C17",
+            "source": "Atlas Handbook \u2022 Data retention",
+            "text": "Customer support tickets are retained for 2 years after closure. Financial records are retained for 7 years. Do not store customer data on personal devices or unapproved cloud services."
+          },
+          "initial_rank": 5,
+          "initial_score": 0.571885237996732,
+          "reranker_score": 0.0,
+          "final_rank": 5
+        },
+        {
+          "chunk": {
+            "id": "C03",
+            "source": "Atlas Handbook \u2022 Parental leave",
+            "text": "Primary caregivers may take 20 weeks of paid parental leave. Secondary caregivers receive 4 weeks. Notify People Operations at least 30 days before the expected start date."
+          },
+          "initial_rank": 6,
+          "initial_score": 0.5374469233938928,
+          "reranker_score": 0.0,
+          "final_rank": 6
+        },
+        {
+          "chunk": {
+            "id": "C08",
+            "source": "Atlas Handbook \u2022 Laptop replacement",
+            "text": "Company laptops are normally replaced after 4 years. For a lost or stolen laptop, notify the Security team within 1 hour of discovery and open an IT incident ticket. Security remotely revokes sessions and arranges a device wipe."
+          },
+          "initial_rank": 7,
+          "initial_score": 0.5353135720721646,
+          "reranker_score": 0.0,
+          "final_rank": 7
+        },
+        {
+          "chunk": {
+            "id": "C24",
+            "source": "Atlas Handbook \u2022 Working abroad FAQ",
+            "text": "Working remotely and business travel are distinct arrangements. Employees planning to work abroad should consult the Remote work policy for approvers and notice periods. Booking flights does not constitute permission to work from another country."
+          },
+          "initial_rank": 8,
+          "initial_score": 0.5304698434965567,
+          "reranker_score": 0.0,
+          "final_rank": 8
+        },
+        {
+          "chunk": {
+            "id": "C07",
+            "source": "Atlas Handbook \u2022 Learning budget",
+            "text": "Each employee has an annual learning budget of INR 30000 for relevant courses, certifications, and books. Manager approval is required before purchase. Submit proof of completion and payment within 30 days of finishing the course."
+          },
+          "initial_rank": 9,
+          "initial_score": 0.5232825059390231,
+          "reranker_score": 0.0,
+          "final_rank": 9
+        },
+        {
+          "chunk": {
+            "id": "C19",
+            "source": "Atlas Handbook \u2022 Wellness allowance",
+            "text": "Employees may claim up to INR 10000 per calendar year for gym memberships and approved wellness classes. Submit receipts through ExpenseDesk. This allowance is separate from the learning budget and home internet reimbursement."
+          },
+          "initial_rank": 10,
+          "initial_score": 0.511786910200949,
+          "reranker_score": 0.0,
+          "final_rank": 10
+        },
+        {
+          "chunk": {
+            "id": "C13",
+            "source": "Atlas Handbook \u2022 IT support",
+            "text": "The IT help desk operates from 09:00 to 18:00 on working days. Submit normal requests through HelpDesk. Device setup requests should be submitted 5 working days before an employee joins."
+          },
+          "initial_rank": 11,
+          "initial_score": 0.5098097144821155,
+          "reranker_score": 0.0,
+          "final_rank": 11
+        },
+        {
+          "chunk": {
+            "id": "C11",
+            "source": "Atlas Handbook \u2022 Expense processing",
+            "text": "Approved expense claims are normally paid within 10 working days after Finance approval. ExpenseDesk displays pending and approved claims. Missing receipts delay processing; Finance may request supporting documents."
+          },
+          "initial_rank": 12,
+          "initial_score": 0.5071574674280718,
+          "reranker_score": 0.0,
+          "final_rank": 12
+        },
+        {
+          "chunk": {
+            "id": "C18",
+            "source": "Atlas Handbook \u2022 Travel booking",
+            "text": "Book approved business flights through TravelDesk at least 14 days before departure. Economy class is standard for flights under 8 hours. Manager and Finance approval are required before booking international travel."
+          },
+          "initial_rank": 13,
+          "initial_score": 0.5063887334838045,
+          "reranker_score": 0.0,
+          "final_rank": 13
+        },
+        {
+          "chunk": {
+            "id": "C05",
+            "source": "Atlas Handbook \u2022 Internet reimbursement",
+            "text": "Remote employees may claim home internet expenses up to INR 1500 per month. Submit the internet bill through ExpenseDesk by the 5th day of the following month. Unused allowance does not roll over."
+          },
+          "initial_rank": 14,
+          "initial_score": 0.5054100045001549,
+          "reranker_score": 0.0,
+          "final_rank": 14
+        },
+        {
+          "chunk": {
+            "id": "C04",
+            "source": "Atlas Handbook \u2022 Remote work",
+            "text": "Employees may work remotely up to 3 days per week with manager approval. Work from another country requires written approval from People Operations and Security at least 14 days in advance. The standard collaboration window is 11:00 to 15:00 local team time."
+          },
+          "initial_rank": 15,
+          "initial_score": 0.5047438206691915,
+          "reranker_score": 0.0,
+          "final_rank": 15
+        }
+      ],
+      "timings": {
+        "retrieval": 1.0034932920098072,
+        "rerank": 1.4061749170068651,
+        "generation": {
+          "baseline": 1.2229482080001617,
+          "reranked": 1.1051875419943826
+        }
+      },
+      "expected_answer": "Up to 5 days; use them by March 31 of the following year.",
+      "relevant_ids": [
+        "C01"
+      ],
+      "metrics": {
+        "baseline": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "reranked": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "question": "What is the monthly home internet reimbursement limit and submission deadline?",
+      "candidate_count": 15,
+      "top_k": 4,
+      "embedding_model": "gemini-embedding-001",
+      "generation_model": "gemini-3.5-flash-lite",
+      "reranker": "LLM relevance judge (0\u2013100)",
+      "baseline_ids": [
+        "C05",
+        "C21",
+        "C19",
+        "C06"
+      ],
+      "reranked_ids": [
+        "C05",
+        "C21",
+        "C19",
+        "C06"
+      ],
+      "answers": {
+        "baseline": "The monthly home internet reimbursement limit is up to INR 1500 per month, and the submission deadline is by the 5th day of the following month [C05].",
+        "reranked": "The monthly home internet reimbursement limit is INR 1500 per month, and the submission deadline is the 5th day of the following month [C05]."
+      },
+      "ranking": [
+        {
+          "chunk": {
+            "id": "C05",
+            "source": "Atlas Handbook \u2022 Internet reimbursement",
+            "text": "Remote employees may claim home internet expenses up to INR 1500 per month. Submit the internet bill through ExpenseDesk by the 5th day of the following month. Unused allowance does not roll over."
+          },
+          "initial_rank": 1,
+          "initial_score": 0.7849004555703759,
+          "reranker_score": 100.0,
+          "final_rank": 1
+        },
+        {
+          "chunk": {
+            "id": "C21",
+            "source": "Atlas Handbook \u2022 Equipment reimbursement",
+            "text": "A one-time home office equipment allowance of INR 15000 covers a desk, chair, or monitor. Obtain approval from your manager before purchase. This allowance does not cover monthly internet bills or personal phones."
+          },
+          "initial_rank": 2,
+          "initial_score": 0.6742084562770355,
+          "reranker_score": 25.0,
+          "final_rank": 2
+        },
+        {
+          "chunk": {
+            "id": "C19",
+            "source": "Atlas Handbook \u2022 Wellness allowance",
+            "text": "Employees may claim up to INR 10000 per calendar year for gym memberships and approved wellness classes. Submit receipts through ExpenseDesk. This allowance is separate from the learning budget and home internet reimbursement."
+          },
+          "initial_rank": 3,
+          "initial_score": 0.6437508814925722,
+          "reranker_score": 25.0,
+          "final_rank": 3
+        },
+        {
+          "chunk": {
+            "id": "C06",
+            "source": "Atlas Handbook \u2022 Travel meals",
+            "text": "Business-travel meals are reimbursable up to INR 2000 per day with itemized receipts. Submit claims within 15 days after travel ends. Alcohol and personal guest meals are not reimbursable."
+          },
+          "initial_rank": 4,
+          "initial_score": 0.6363656039760719,
+          "reranker_score": 0.0,
+          "final_rank": 4
+        },
+        {
+          "chunk": {
+            "id": "C07",
+            "source": "Atlas Handbook \u2022 Learning budget",
+            "text": "Each employee has an annual learning budget of INR 30000 for relevant courses, certifications, and books. Manager approval is required before purchase. Submit proof of completion and payment within 30 days of finishing the course."
+          },
+          "initial_rank": 5,
+          "initial_score": 0.6041506077585265,
+          "reranker_score": 0.0,
+          "final_rank": 5
+        },
+        {
+          "chunk": {
+            "id": "C11",
+            "source": "Atlas Handbook \u2022 Expense processing",
+            "text": "Approved expense claims are normally paid within 10 working days after Finance approval. ExpenseDesk displays pending and approved claims. Missing receipts delay processing; Finance may request supporting documents."
+          },
+          "initial_rank": 6,
+          "initial_score": 0.5850636722553743,
+          "reranker_score": 0.0,
+          "final_rank": 6
+        },
+        {
+          "chunk": {
+            "id": "C13",
+            "source": "Atlas Handbook \u2022 IT support",
+            "text": "The IT help desk operates from 09:00 to 18:00 on working days. Submit normal requests through HelpDesk. Device setup requests should be submitted 5 working days before an employee joins."
+          },
+          "initial_rank": 7,
+          "initial_score": 0.5788795987454147,
+          "reranker_score": 0.0,
+          "final_rank": 7
+        },
+        {
+          "chunk": {
+            "id": "C08",
+            "source": "Atlas Handbook \u2022 Laptop replacement",
+            "text": "Company laptops are normally replaced after 4 years. For a lost or stolen laptop, notify the Security team within 1 hour of discovery and open an IT incident ticket. Security remotely revokes sessions and arranges a device wipe."
+          },
+          "initial_rank": 8,
+          "initial_score": 0.5699833907476637,
+          "reranker_score": 0.0,
+          "final_rank": 8
+        },
+        {
+          "chunk": {
+            "id": "C14",
+            "source": "Atlas Handbook \u2022 Performance reviews",
+            "text": "Formal performance reviews take place in June and December. Employees submit self-assessments one week before their review meeting. Managers and employees agree measurable goals for the next review period."
+          },
+          "initial_rank": 9,
+          "initial_score": 0.569873492475292,
+          "reranker_score": 0.0,
+          "final_rank": 9
+        },
+        {
+          "chunk": {
+            "id": "C04",
+            "source": "Atlas Handbook \u2022 Remote work",
+            "text": "Employees may work remotely up to 3 days per week with manager approval. Work from another country requires written approval from People Operations and Security at least 14 days in advance. The standard collaboration window is 11:00 to 15:00 local team time."
+          },
+          "initial_rank": 10,
+          "initial_score": 0.5696375815721972,
+          "reranker_score": 0.0,
+          "final_rank": 10
+        },
+        {
+          "chunk": {
+            "id": "C22",
+            "source": "Atlas Handbook \u2022 Training events",
+            "text": "Internal technical training sessions take place on the last Friday of each month. Attendance is optional. Recordings are available in LearnHub. External paid certifications follow the separate Learning budget policy."
+          },
+          "initial_rank": 11,
+          "initial_score": 0.5643866986066216,
+          "reranker_score": 0.0,
+          "final_rank": 11
+        },
+        {
+          "chunk": {
+            "id": "C24",
+            "source": "Atlas Handbook \u2022 Working abroad FAQ",
+            "text": "Working remotely and business travel are distinct arrangements. Employees planning to work abroad should consult the Remote work policy for approvers and notice periods. Booking flights does not constitute permission to work from another country."
+          },
+          "initial_rank": 12,
+          "initial_score": 0.5608283817278253,
+          "reranker_score": 0.0,
+          "final_rank": 12
+        },
+        {
+          "chunk": {
+            "id": "C23",
+            "source": "Atlas Handbook \u2022 Device care",
+            "text": "Keep company laptops encrypted, install required updates, and avoid leaving devices unattended in public. Routine repairs are arranged through IT support. Lost or stolen devices must follow the Laptop replacement reporting procedure."
+          },
+          "initial_rank": 13,
+          "initial_score": 0.5577130453182229,
+          "reranker_score": 0.0,
+          "final_rank": 13
+        },
+        {
+          "chunk": {
+            "id": "C01",
+            "source": "Atlas Handbook \u2022 Annual leave",
+            "text": "Full-time Atlas employees receive 24 paid annual leave days per calendar year. Up to 5 unused days may carry into the next year and must be used by March 31. Managers approve leave requests submitted through PeopleHub at least 7 days before the first day off."
+          },
+          "initial_rank": 14,
+          "initial_score": 0.5537877461909451,
+          "reranker_score": 0.0,
+          "final_rank": 14
+        },
+        {
+          "chunk": {
+            "id": "C18",
+            "source": "Atlas Handbook \u2022 Travel booking",
+            "text": "Book approved business flights through TravelDesk at least 14 days before departure. Economy class is standard for flights under 8 hours. Manager and Finance approval are required before booking international travel."
+          },
+          "initial_rank": 15,
+          "initial_score": 0.552793875121749,
+          "reranker_score": 0.0,
+          "final_rank": 15
+        }
+      ],
+      "timings": {
+        "retrieval": 0.8861386659991695,
+        "rerank": 1.3076135000010254,
+        "generation": {
+          "baseline": 1.119294499992975,
+          "reranked": 1.0824736249924172
+        }
+      },
+      "expected_answer": "INR 1500 per month; submit the bill by the 5th of the following month.",
+      "relevant_ids": [
+        "C05"
+      ],
+      "metrics": {
+        "baseline": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "reranked": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "question": "Who must approve working from another country and how far in advance?",
+      "candidate_count": 15,
+      "top_k": 4,
+      "embedding_model": "gemini-embedding-001",
+      "generation_model": "gemini-3.5-flash-lite",
+      "reranker": "LLM relevance judge (0\u2013100)",
+      "baseline_ids": [
+        "C24",
+        "C04",
+        "C18",
+        "C01"
+      ],
+      "reranked_ids": [
+        "C04",
+        "C24",
+        "C18",
+        "C01"
+      ],
+      "answers": {
+        "baseline": "Working from another country requires written approval from People Operations and Security at least 14 days in advance [C04].",
+        "reranked": "Working from another country requires written approval from People Operations and Security at least 14 days in advance [C04]."
+      },
+      "ranking": [
+        {
+          "chunk": {
+            "id": "C04",
+            "source": "Atlas Handbook \u2022 Remote work",
+            "text": "Employees may work remotely up to 3 days per week with manager approval. Work from another country requires written approval from People Operations and Security at least 14 days in advance. The standard collaboration window is 11:00 to 15:00 local team time."
+          },
+          "initial_rank": 2,
+          "initial_score": 0.720175394149865,
+          "reranker_score": 100.0,
+          "final_rank": 1
+        },
+        {
+          "chunk": {
+            "id": "C24",
+            "source": "Atlas Handbook \u2022 Working abroad FAQ",
+            "text": "Working remotely and business travel are distinct arrangements. Employees planning to work abroad should consult the Remote work policy for approvers and notice periods. Booking flights does not constitute permission to work from another country."
+          },
+          "initial_rank": 1,
+          "initial_score": 0.7685857585454028,
+          "reranker_score": 75.0,
+          "final_rank": 2
+        },
+        {
+          "chunk": {
+            "id": "C18",
+            "source": "Atlas Handbook \u2022 Travel booking",
+            "text": "Book approved business flights through TravelDesk at least 14 days before departure. Economy class is standard for flights under 8 hours. Manager and Finance approval are required before booking international travel."
+          },
+          "initial_rank": 3,
+          "initial_score": 0.646330444661941,
+          "reranker_score": 25.0,
+          "final_rank": 3
+        },
+        {
+          "chunk": {
+            "id": "C01",
+            "source": "Atlas Handbook \u2022 Annual leave",
+            "text": "Full-time Atlas employees receive 24 paid annual leave days per calendar year. Up to 5 unused days may carry into the next year and must be used by March 31. Managers approve leave requests submitted through PeopleHub at least 7 days before the first day off."
+          },
+          "initial_rank": 4,
+          "initial_score": 0.6032169768166937,
+          "reranker_score": 0.0,
+          "final_rank": 4
+        },
+        {
+          "chunk": {
+            "id": "C20",
+            "source": "Atlas Handbook \u2022 Leave requests FAQ",
+            "text": "Use PeopleHub to check leave balances, request annual leave, and view company holidays. Your manager reviews scheduling conflicts. For exact entitlement, carry-forward limits, and expiry dates, consult the Annual leave policy."
+          },
+          "initial_rank": 5,
+          "initial_score": 0.6026547996270195,
+          "reranker_score": 0.0,
+          "final_rank": 5
+        },
+        {
+          "chunk": {
+            "id": "C16",
+            "source": "Atlas Handbook \u2022 Public holidays",
+            "text": "Public holidays follow the calendar of the employee's assigned office. The annual calendar is published in PeopleHub in December. Employees may choose 2 optional holidays from the regional list each year."
+          },
+          "initial_rank": 6,
+          "initial_score": 0.594000200973398,
+          "reranker_score": 0.0,
+          "final_rank": 6
+        },
+        {
+          "chunk": {
+            "id": "C03",
+            "source": "Atlas Handbook \u2022 Parental leave",
+            "text": "Primary caregivers may take 20 weeks of paid parental leave. Secondary caregivers receive 4 weeks. Notify People Operations at least 30 days before the expected start date."
+          },
+          "initial_rank": 7,
+          "initial_score": 0.5730554319606654,
+          "reranker_score": 0.0,
+          "final_rank": 7
+        },
+        {
+          "chunk": {
+            "id": "C02",
+            "source": "Atlas Handbook \u2022 Sick leave",
+            "text": "Employees have 12 paid sick leave days annually. Notify your manager before the workday starts. A medical certificate is required for absences lasting more than 3 consecutive working days. Sick leave cannot be carried forward."
+          },
+          "initial_rank": 8,
+          "initial_score": 0.5667264424948844,
+          "reranker_score": 0.0,
+          "final_rank": 8
+        },
+        {
+          "chunk": {
+            "id": "C08",
+            "source": "Atlas Handbook \u2022 Laptop replacement",
+            "text": "Company laptops are normally replaced after 4 years. For a lost or stolen laptop, notify the Security team within 1 hour of discovery and open an IT incident ticket. Security remotely revokes sessions and arranges a device wipe."
+          },
+          "initial_rank": 9,
+          "initial_score": 0.5642050499061974,
+          "reranker_score": 0.0,
+          "final_rank": 9
+        },
+        {
+          "chunk": {
+            "id": "C21",
+            "source": "Atlas Handbook \u2022 Equipment reimbursement",
+            "text": "A one-time home office equipment allowance of INR 15000 covers a desk, chair, or monitor. Obtain approval from your manager before purchase. This allowance does not cover monthly internet bills or personal phones."
+          },
+          "initial_rank": 10,
+          "initial_score": 0.5596542356145064,
+          "reranker_score": 0.0,
+          "final_rank": 10
+        },
+        {
+          "chunk": {
+            "id": "C14",
+            "source": "Atlas Handbook \u2022 Performance reviews",
+            "text": "Formal performance reviews take place in June and December. Employees submit self-assessments one week before their review meeting. Managers and employees agree measurable goals for the next review period."
+          },
+          "initial_rank": 11,
+          "initial_score": 0.5592634230823293,
+          "reranker_score": 0.0,
+          "final_rank": 11
+        },
+        {
+          "chunk": {
+            "id": "C13",
+            "source": "Atlas Handbook \u2022 IT support",
+            "text": "The IT help desk operates from 09:00 to 18:00 on working days. Submit normal requests through HelpDesk. Device setup requests should be submitted 5 working days before an employee joins."
+          },
+          "initial_rank": 12,
+          "initial_score": 0.5563379310602702,
+          "reranker_score": 0.0,
+          "final_rank": 12
+        },
+        {
+          "chunk": {
+            "id": "C12",
+            "source": "Atlas Handbook \u2022 Office access",
+            "text": "The office is open from 08:00 to 20:00 on weekdays. Employees must carry their access badge. Visitors must be registered by a host at least 24 hours before arrival and remain accompanied in restricted areas."
+          },
+          "initial_rank": 13,
+          "initial_score": 0.5527795999805627,
+          "reranker_score": 0.0,
+          "final_rank": 13
+        },
+        {
+          "chunk": {
+            "id": "C05",
+            "source": "Atlas Handbook \u2022 Internet reimbursement",
+            "text": "Remote employees may claim home internet expenses up to INR 1500 per month. Submit the internet bill through ExpenseDesk by the 5th day of the following month. Unused allowance does not roll over."
+          },
+          "initial_rank": 14,
+          "initial_score": 0.5501209646936409,
+          "reranker_score": 0.0,
+          "final_rank": 14
+        },
+        {
+          "chunk": {
+            "id": "C07",
+            "source": "Atlas Handbook \u2022 Learning budget",
+            "text": "Each employee has an annual learning budget of INR 30000 for relevant courses, certifications, and books. Manager approval is required before purchase. Submit proof of completion and payment within 30 days of finishing the course."
+          },
+          "initial_rank": 15,
+          "initial_score": 0.5436084505670106,
+          "reranker_score": 0.0,
+          "final_rank": 15
+        }
+      ],
+      "timings": {
+        "retrieval": 0.8510662909975508,
+        "rerank": 1.6863635000045178,
+        "generation": {
+          "baseline": 1.1863949590042466,
+          "reranked": 1.0167756669980008
+        }
+      },
+      "expected_answer": "Written approval from People Operations and Security at least 14 days in advance.",
+      "relevant_ids": [
+        "C04"
+      ],
+      "metrics": {
+        "baseline": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 0.5
+        },
+        "reranked": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "question": "What should I do if my company laptop is stolen, and how quickly?",
+      "candidate_count": 15,
+      "top_k": 4,
+      "embedding_model": "gemini-embedding-001",
+      "generation_model": "gemini-3.5-flash-lite",
+      "reranker": "LLM relevance judge (0\u2013100)",
+      "baseline_ids": [
+        "C08",
+        "C23",
+        "C09",
+        "C13"
+      ],
+      "reranked_ids": [
+        "C08",
+        "C23",
+        "C09",
+        "C13"
+      ],
+      "answers": {
+        "baseline": "If your company laptop is stolen, you should notify the Security team and open an IT incident ticket within 1 hour of discovery [C08].",
+        "reranked": "If your company laptop is stolen, you should notify the Security team and open an IT incident ticket within 1 hour of discovery [C08]."
+      },
+      "ranking": [
+        {
+          "chunk": {
+            "id": "C08",
+            "source": "Atlas Handbook \u2022 Laptop replacement",
+            "text": "Company laptops are normally replaced after 4 years. For a lost or stolen laptop, notify the Security team within 1 hour of discovery and open an IT incident ticket. Security remotely revokes sessions and arranges a device wipe."
+          },
+          "initial_rank": 1,
+          "initial_score": 0.7614467022509724,
+          "reranker_score": 100.0,
+          "final_rank": 1
+        },
+        {
+          "chunk": {
+            "id": "C23",
+            "source": "Atlas Handbook \u2022 Device care",
+            "text": "Keep company laptops encrypted, install required updates, and avoid leaving devices unattended in public. Routine repairs are arranged through IT support. Lost or stolen devices must follow the Laptop replacement reporting procedure."
+          },
+          "initial_rank": 2,
+          "initial_score": 0.7254217346965215,
+          "reranker_score": 50.0,
+          "final_rank": 2
+        },
+        {
+          "chunk": {
+            "id": "C09",
+            "source": "Atlas Handbook \u2022 Security incidents",
+            "text": "Report suspected phishing, unauthorized access, or data exposure to security@atlas.example immediately. Do not delete suspicious emails or alter affected files. Security triages urgent incidents around the clock."
+          },
+          "initial_rank": 3,
+          "initial_score": 0.617957674918612,
+          "reranker_score": 25.0,
+          "final_rank": 3
+        },
+        {
+          "chunk": {
+            "id": "C13",
+            "source": "Atlas Handbook \u2022 IT support",
+            "text": "The IT help desk operates from 09:00 to 18:00 on working days. Submit normal requests through HelpDesk. Device setup requests should be submitted 5 working days before an employee joins."
+          },
+          "initial_rank": 4,
+          "initial_score": 0.5821200262550317,
+          "reranker_score": 0.0,
+          "final_rank": 4
+        },
+        {
+          "chunk": {
+            "id": "C24",
+            "source": "Atlas Handbook \u2022 Working abroad FAQ",
+            "text": "Working remotely and business travel are distinct arrangements. Employees planning to work abroad should consult the Remote work policy for approvers and notice periods. Booking flights does not constitute permission to work from another country."
+          },
+          "initial_rank": 5,
+          "initial_score": 0.560757746001732,
+          "reranker_score": 0.0,
+          "final_rank": 5
+        },
+        {
+          "chunk": {
+            "id": "C17",
+            "source": "Atlas Handbook \u2022 Data retention",
+            "text": "Customer support tickets are retained for 2 years after closure. Financial records are retained for 7 years. Do not store customer data on personal devices or unapproved cloud services."
+          },
+          "initial_rank": 6,
+          "initial_score": 0.5531614651024026,
+          "reranker_score": 0.0,
+          "final_rank": 6
+        },
+        {
+          "chunk": {
+            "id": "C10",
+            "source": "Atlas Handbook \u2022 Password requirements",
+            "text": "Passwords must contain at least 14 characters and must not be reused across work and personal accounts. Multi-factor authentication is mandatory. Use the approved company password manager to generate and store credentials."
+          },
+          "initial_rank": 7,
+          "initial_score": 0.5468196614086944,
+          "reranker_score": 0.0,
+          "final_rank": 7
+        },
+        {
+          "chunk": {
+            "id": "C04",
+            "source": "Atlas Handbook \u2022 Remote work",
+            "text": "Employees may work remotely up to 3 days per week with manager approval. Work from another country requires written approval from People Operations and Security at least 14 days in advance. The standard collaboration window is 11:00 to 15:00 local team time."
+          },
+          "initial_rank": 8,
+          "initial_score": 0.5417359655895544,
+          "reranker_score": 0.0,
+          "final_rank": 8
+        },
+        {
+          "chunk": {
+            "id": "C18",
+            "source": "Atlas Handbook \u2022 Travel booking",
+            "text": "Book approved business flights through TravelDesk at least 14 days before departure. Economy class is standard for flights under 8 hours. Manager and Finance approval are required before booking international travel."
+          },
+          "initial_rank": 9,
+          "initial_score": 0.5330988297399064,
+          "reranker_score": 0.0,
+          "final_rank": 9
+        },
+        {
+          "chunk": {
+            "id": "C06",
+            "source": "Atlas Handbook \u2022 Travel meals",
+            "text": "Business-travel meals are reimbursable up to INR 2000 per day with itemized receipts. Submit claims within 15 days after travel ends. Alcohol and personal guest meals are not reimbursable."
+          },
+          "initial_rank": 10,
+          "initial_score": 0.5329237772283959,
+          "reranker_score": 0.0,
+          "final_rank": 10
+        },
+        {
+          "chunk": {
+            "id": "C02",
+            "source": "Atlas Handbook \u2022 Sick leave",
+            "text": "Employees have 12 paid sick leave days annually. Notify your manager before the workday starts. A medical certificate is required for absences lasting more than 3 consecutive working days. Sick leave cannot be carried forward."
+          },
+          "initial_rank": 11,
+          "initial_score": 0.5324922491870506,
+          "reranker_score": 0.0,
+          "final_rank": 11
+        },
+        {
+          "chunk": {
+            "id": "C20",
+            "source": "Atlas Handbook \u2022 Leave requests FAQ",
+            "text": "Use PeopleHub to check leave balances, request annual leave, and view company holidays. Your manager reviews scheduling conflicts. For exact entitlement, carry-forward limits, and expiry dates, consult the Annual leave policy."
+          },
+          "initial_rank": 12,
+          "initial_score": 0.5316754371506635,
+          "reranker_score": 0.0,
+          "final_rank": 12
+        },
+        {
+          "chunk": {
+            "id": "C12",
+            "source": "Atlas Handbook \u2022 Office access",
+            "text": "The office is open from 08:00 to 20:00 on weekdays. Employees must carry their access badge. Visitors must be registered by a host at least 24 hours before arrival and remain accompanied in restricted areas."
+          },
+          "initial_rank": 13,
+          "initial_score": 0.5295837301011559,
+          "reranker_score": 0.0,
+          "final_rank": 13
+        },
+        {
+          "chunk": {
+            "id": "C11",
+            "source": "Atlas Handbook \u2022 Expense processing",
+            "text": "Approved expense claims are normally paid within 10 working days after Finance approval. ExpenseDesk displays pending and approved claims. Missing receipts delay processing; Finance may request supporting documents."
+          },
+          "initial_rank": 14,
+          "initial_score": 0.5266577629210881,
+          "reranker_score": 0.0,
+          "final_rank": 14
+        },
+        {
+          "chunk": {
+            "id": "C05",
+            "source": "Atlas Handbook \u2022 Internet reimbursement",
+            "text": "Remote employees may claim home internet expenses up to INR 1500 per month. Submit the internet bill through ExpenseDesk by the 5th day of the following month. Unused allowance does not roll over."
+          },
+          "initial_rank": 15,
+          "initial_score": 0.5199392241705103,
+          "reranker_score": 0.0,
+          "final_rank": 15
+        }
+      ],
+      "timings": {
+        "retrieval": 0.8765190410049399,
+        "rerank": 1.3384650410007453,
+        "generation": {
+          "baseline": 1.3932557499938412,
+          "reranked": 1.1183930420083925
+        }
+      },
+      "expected_answer": "Notify Security within 1 hour of discovery and open an IT incident ticket.",
+      "relevant_ids": [
+        "C08"
+      ],
+      "metrics": {
+        "baseline": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "reranked": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "question": "How much can I spend on a course each year, and do I need approval before buying it?",
+      "candidate_count": 15,
+      "top_k": 4,
+      "embedding_model": "gemini-embedding-001",
+      "generation_model": "gemini-3.5-flash-lite",
+      "reranker": "LLM relevance judge (0\u2013100)",
+      "baseline_ids": [
+        "C07",
+        "C19",
+        "C22",
+        "C21"
+      ],
+      "reranked_ids": [
+        "C07",
+        "C22",
+        "C19",
+        "C21"
+      ],
+      "answers": {
+        "baseline": "You can spend up to INR 30000 each year on relevant courses, certifications, and books [C07]. You do need manager approval before making the purchase [C07].",
+        "reranked": "You can spend up to INR 30000 each year on relevant courses, certifications, and books [C07]. Yes, you need manager approval before purchasing [C07]."
+      },
+      "ranking": [
+        {
+          "chunk": {
+            "id": "C07",
+            "source": "Atlas Handbook \u2022 Learning budget",
+            "text": "Each employee has an annual learning budget of INR 30000 for relevant courses, certifications, and books. Manager approval is required before purchase. Submit proof of completion and payment within 30 days of finishing the course."
+          },
+          "initial_rank": 1,
+          "initial_score": 0.7486122837412451,
+          "reranker_score": 100.0,
+          "final_rank": 1
+        },
+        {
+          "chunk": {
+            "id": "C22",
+            "source": "Atlas Handbook \u2022 Training events",
+            "text": "Internal technical training sessions take place on the last Friday of each month. Attendance is optional. Recordings are available in LearnHub. External paid certifications follow the separate Learning budget policy."
+          },
+          "initial_rank": 3,
+          "initial_score": 0.5966526624702843,
+          "reranker_score": 25.0,
+          "final_rank": 2
+        },
+        {
+          "chunk": {
+            "id": "C19",
+            "source": "Atlas Handbook \u2022 Wellness allowance",
+            "text": "Employees may claim up to INR 10000 per calendar year for gym memberships and approved wellness classes. Submit receipts through ExpenseDesk. This allowance is separate from the learning budget and home internet reimbursement."
+          },
+          "initial_rank": 2,
+          "initial_score": 0.601483480945179,
+          "reranker_score": 0.0,
+          "final_rank": 3
+        },
+        {
+          "chunk": {
+            "id": "C21",
+            "source": "Atlas Handbook \u2022 Equipment reimbursement",
+            "text": "A one-time home office equipment allowance of INR 15000 covers a desk, chair, or monitor. Obtain approval from your manager before purchase. This allowance does not cover monthly internet bills or personal phones."
+          },
+          "initial_rank": 4,
+          "initial_score": 0.5888518002751811,
+          "reranker_score": 0.0,
+          "final_rank": 4
+        },
+        {
+          "chunk": {
+            "id": "C06",
+            "source": "Atlas Handbook \u2022 Travel meals",
+            "text": "Business-travel meals are reimbursable up to INR 2000 per day with itemized receipts. Submit claims within 15 days after travel ends. Alcohol and personal guest meals are not reimbursable."
+          },
+          "initial_rank": 5,
+          "initial_score": 0.5656060425614738,
+          "reranker_score": 0.0,
+          "final_rank": 5
+        },
+        {
+          "chunk": {
+            "id": "C18",
+            "source": "Atlas Handbook \u2022 Travel booking",
+            "text": "Book approved business flights through TravelDesk at least 14 days before departure. Economy class is standard for flights under 8 hours. Manager and Finance approval are required before booking international travel."
+          },
+          "initial_rank": 6,
+          "initial_score": 0.5638683012360446,
+          "reranker_score": 0.0,
+          "final_rank": 6
+        },
+        {
+          "chunk": {
+            "id": "C01",
+            "source": "Atlas Handbook \u2022 Annual leave",
+            "text": "Full-time Atlas employees receive 24 paid annual leave days per calendar year. Up to 5 unused days may carry into the next year and must be used by March 31. Managers approve leave requests submitted through PeopleHub at least 7 days before the first day off."
+          },
+          "initial_rank": 7,
+          "initial_score": 0.5564098617169001,
+          "reranker_score": 0.0,
+          "final_rank": 7
+        },
+        {
+          "chunk": {
+            "id": "C17",
+            "source": "Atlas Handbook \u2022 Data retention",
+            "text": "Customer support tickets are retained for 2 years after closure. Financial records are retained for 7 years. Do not store customer data on personal devices or unapproved cloud services."
+          },
+          "initial_rank": 8,
+          "initial_score": 0.551003888271782,
+          "reranker_score": 0.0,
+          "final_rank": 8
+        },
+        {
+          "chunk": {
+            "id": "C02",
+            "source": "Atlas Handbook \u2022 Sick leave",
+            "text": "Employees have 12 paid sick leave days annually. Notify your manager before the workday starts. A medical certificate is required for absences lasting more than 3 consecutive working days. Sick leave cannot be carried forward."
+          },
+          "initial_rank": 9,
+          "initial_score": 0.5470498604482139,
+          "reranker_score": 0.0,
+          "final_rank": 9
+        },
+        {
+          "chunk": {
+            "id": "C11",
+            "source": "Atlas Handbook \u2022 Expense processing",
+            "text": "Approved expense claims are normally paid within 10 working days after Finance approval. ExpenseDesk displays pending and approved claims. Missing receipts delay processing; Finance may request supporting documents."
+          },
+          "initial_rank": 10,
+          "initial_score": 0.542573619880781,
+          "reranker_score": 0.0,
+          "final_rank": 10
+        },
+        {
+          "chunk": {
+            "id": "C24",
+            "source": "Atlas Handbook \u2022 Working abroad FAQ",
+            "text": "Working remotely and business travel are distinct arrangements. Employees planning to work abroad should consult the Remote work policy for approvers and notice periods. Booking flights does not constitute permission to work from another country."
+          },
+          "initial_rank": 11,
+          "initial_score": 0.5378072919227485,
+          "reranker_score": 0.0,
+          "final_rank": 11
+        },
+        {
+          "chunk": {
+            "id": "C05",
+            "source": "Atlas Handbook \u2022 Internet reimbursement",
+            "text": "Remote employees may claim home internet expenses up to INR 1500 per month. Submit the internet bill through ExpenseDesk by the 5th day of the following month. Unused allowance does not roll over."
+          },
+          "initial_rank": 12,
+          "initial_score": 0.5344121038544862,
+          "reranker_score": 0.0,
+          "final_rank": 12
+        },
+        {
+          "chunk": {
+            "id": "C08",
+            "source": "Atlas Handbook \u2022 Laptop replacement",
+            "text": "Company laptops are normally replaced after 4 years. For a lost or stolen laptop, notify the Security team within 1 hour of discovery and open an IT incident ticket. Security remotely revokes sessions and arranges a device wipe."
+          },
+          "initial_rank": 13,
+          "initial_score": 0.534307864654688,
+          "reranker_score": 0.0,
+          "final_rank": 13
+        },
+        {
+          "chunk": {
+            "id": "C20",
+            "source": "Atlas Handbook \u2022 Leave requests FAQ",
+            "text": "Use PeopleHub to check leave balances, request annual leave, and view company holidays. Your manager reviews scheduling conflicts. For exact entitlement, carry-forward limits, and expiry dates, consult the Annual leave policy."
+          },
+          "initial_rank": 14,
+          "initial_score": 0.5340744535781607,
+          "reranker_score": 0.0,
+          "final_rank": 14
+        },
+        {
+          "chunk": {
+            "id": "C14",
+            "source": "Atlas Handbook \u2022 Performance reviews",
+            "text": "Formal performance reviews take place in June and December. Employees submit self-assessments one week before their review meeting. Managers and employees agree measurable goals for the next review period."
+          },
+          "initial_rank": 15,
+          "initial_score": 0.533546496998944,
+          "reranker_score": 0.0,
+          "final_rank": 15
+        }
+      ],
+      "timings": {
+        "retrieval": 0.8492987080098828,
+        "rerank": 1.3765774170024088,
+        "generation": {
+          "baseline": 1.1324429590022191,
+          "reranked": 1.1676755839871475
+        }
+      },
+      "expected_answer": "The annual learning budget is INR 30000. Manager approval is required before purchase.",
+      "relevant_ids": [
+        "C07"
+      ],
+      "metrics": {
+        "baseline": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "reranked": {
+          "precision": 0.25,
+          "recall": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    }
+  ]
+}
